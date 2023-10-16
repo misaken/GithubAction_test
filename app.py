@@ -144,4 +144,4 @@ def search_data():
 
 if __name__ == '__main__':
     app.debug = False
-    app.run(host='localhost')
+    app.run(host='localhost', port=8888)
